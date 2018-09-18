@@ -1,6 +1,7 @@
 import heapq
 
 
+# 下面的类利用 heapq 模块实现了一个简单的优先级队列
 class PriorityQueue:
     def __init__(self):
         self._queue = []
@@ -17,6 +18,7 @@ class PriorityQueue:
 class Item:
     def __init__(self, name):
         self.name = name
+
     def __repr__(self):
         return 'Item({!r})'.format(self.name)
 

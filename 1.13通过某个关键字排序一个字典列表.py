@@ -1,3 +1,4 @@
+# 通过某个关键字排序一个字典列表
 rows = [
     {'fname': 'Brian', 'lname': 'Jones', 'uid': 1003},
     {'fname': 'David', 'lname': 'Beazley', 'uid': 1002},

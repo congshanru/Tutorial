@@ -1,3 +1,4 @@
+# 怎样找出一个序列中出现次数最多的元素呢？
 words = [
     'look', 'into', 'my', 'eyes', 'look', 'into', 'my', 'eyes',
     'the', 'eyes', 'the', 'eyes', 'the', 'eyes', 'not', 'around', 'the',
@@ -17,6 +18,7 @@ print(top_three)
 print(word_counts['not'])
 print(word_counts['eyes'])
 
+# 手动计数
 morewords = ['why','are','you','not','looking','in','my','eyes']
 for word in morewords:
     word_counts[word] += 1
